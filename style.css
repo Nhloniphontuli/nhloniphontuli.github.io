@@ -56,8 +56,7 @@ nav ul li a{
     color: #fff;
     text-decoration: none;
     font-size: 18px;
-    position: relative;
-    
+    position: relative;  
 }
 nav ul li a::after{
     content: '';
@@ -69,7 +68,6 @@ nav ul li a::after{
     bottom: -6px;
     transition: 0.5s;
 }
-
 nav ul li a:hover::after{
     width:100%;
 }
@@ -271,7 +269,6 @@ nav ul li a:hover::after{
 .layer h2{
     font-weight: bold;
 }
-
  .btn.btn2{
     display: block;
     margin: 50px auto;
@@ -282,7 +279,6 @@ nav ul li a:hover::after{
     text-decoration: none;
     transition: background 0.5s;
 }
-
 .btn.btn2:hover{
     background: #1c80a1;
 }
@@ -397,22 +393,16 @@ body {
     color:#1c80a1;
     transform: translateY(-5px);
 }
-
-
 .element {
     position: relative;
     overflow: hidden;
-  }
-  
+  } 
   .element:hover {
     opacity: 0.5;
   }
-  
   .element:hover .inner {
     opacity: 1;
   }
-
-
 .contact-left form{
     width: 100%
 }
@@ -427,7 +417,6 @@ form input, form textarea{
     font-size: 18px;
     border-radius: 6px;
 }
-
 .btn.btn2:hover{
     background-color: #262626;
     color: #fff;
@@ -460,7 +449,6 @@ form .btn2{
     grid-area: footer;
     min-height: 12rem;
 }
-
 
 /*--- css for small screen--- */
 nav .fas{
