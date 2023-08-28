@@ -316,14 +316,11 @@ body {
     border-radius: 10px;
     display: block;
     height: 400px;
-    /* border: solid; */
-    /* border-color: #2295bb; */
     transition: transform 0.5s;  
 }
 .layerr{
     width: 75%;
     height: 0%;
-    /* background: linear-gradient(rgba(0,0,0,0.6),#2295bb); */
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -344,16 +341,13 @@ body {
 }
 .layerr a{
     margin-top: 20px;
-    /* color: #228c94; */
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
-    /* background: #ffffff; */
     width: 60px;
     height: 60px;
     border-radius: 50%;
     align-self: start;
-
 }
 .workk:hover .layerr{
     height: 100%;
@@ -368,6 +362,7 @@ body {
 .contact-right{
     flex-basis: 60%;
 }
+
 .contact-left p{
     margin-top:30px;
 }
@@ -446,7 +441,7 @@ form .btn2{
 }
 
 /*--- css for small screen--- */
-nav .fas{
+nav .fa-solid{
     display: none;
 }
 
@@ -461,7 +456,7 @@ nav .fas{
     .header-text h1{
         font-size: 30px;
     }
-    nav .fas{
+    nav .fa-solid{
         display: block;
         font-size: 25px;
     }
@@ -501,13 +496,13 @@ nav .fas{
     .tab-links{
         font-size: 16px;
         margin-right: 20px;
-     }
+    }
     .contact-left, .contact-right{
     flex-basis: 100%;
-     }
+    }
     .copyright{
     font-size: 14px;
-     }
+    }
 }
 #msg{
     color: #1c80a1;
