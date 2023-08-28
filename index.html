@@ -190,6 +190,7 @@
                 <div class="work">
                     <img src="images/3.jpg">
                     <div class="layer">
+
                         <h2>C# Project</h2>
                            <!-- <a href="./nhlonipho_Tic_Tac_Toe/index.html" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a> -->
                     </div>
@@ -249,6 +250,8 @@
   <p id="one" onclick="myFunction()"></p>
         <div class="copyright">
             <p>copyright @ Respect. My website <i class="fa-solid fa-heart"></i></p>
+        <i class="fa-light fa-up"></i>
+
         </div>
     
     <script>  
@@ -298,5 +301,51 @@
             .catch(error => console.error('Error!', error.message))
         })
       </script>
+
+      <style>
+           
+        #myBtn {
+          position: fixed;
+          bottom: 20px;
+          right: 30px;
+          font-size: 18px;
+          border-color: #1c80a1;
+          background-color: #1c80a1;
+          color: rgb(0, 0, 0);
+          cursor: pointer;
+          padding: 15px;
+          border-radius: 4px;
+        }
+        
+        #myBtn:hover {
+          background-color: #3a3838;
+          color: #ffffff;
+          transition: 0.5s;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <button onclick="topFunction()" id="myBtn" title="Go to top">mune</button>
+        
+        <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
 </body>
 </html>
